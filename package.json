@@ -4,7 +4,9 @@
   "description": "Dev environment for react apps",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -17,19 +19,24 @@
   },
   "homepage": "https://github.com/Alamansky/react-boilerplate#readme",
   "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
     "eslint": "^4.16.0",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-prettier": "^2.6.0",
-    "prettier": "1.10.2",
-    "stylelint": "*",
-    "stylelint-config-standard": "^18.2.0",
-    "stylelint-config-sass-guidelines": "^5.0.0",
     "gulp": "^3.9.1",
     "gulp-changed": "^3.2.0",
     "gulp-debug": "^3.2.0",
-    "merge-stream": "^1.0.1",
     "gulp-jshint": "^2.1.0",
     "jshint": "^2.9.5",
-    "jshint-stylish": "^2.2.1"
+    "jshint-stylish": "^2.2.1",
+    "merge-stream": "^1.0.1",
+    "prettier": "1.10.2",
+    "stylelint": "*",
+    "stylelint-config-sass-guidelines": "^5.0.0",
+    "stylelint-config-standard": "^18.2.0",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.15"
   }
 }
