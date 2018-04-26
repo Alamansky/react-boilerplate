@@ -23,6 +23,13 @@
     "prettier": "1.10.2",
     "stylelint": "*",
     "stylelint-config-standard": "^18.2.0",
-    "stylelint-config-sass-guidelines": "^5.0.0"
+    "stylelint-config-sass-guidelines": "^5.0.0",
+    "gulp": "^3.9.1",
+    "gulp-changed": "^3.2.0",
+    "gulp-debug": "^3.2.0",
+    "merge-stream": "^1.0.1",
+    "gulp-jshint": "^2.1.0",
+    "jshint": "^2.9.5",
+    "jshint-stylish": "^2.2.1"
   }
 }
