@@ -1,3 +1,1 @@
-var derp = 'herp';
-
-console.log(`herp is a ${derp}`);
+import App from './App';
