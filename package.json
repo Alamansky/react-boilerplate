@@ -1,0 +1,28 @@
+{
+  "name": "react-boilerplate",
+  "version": "1.0.0",
+  "description": "Dev environment for react apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alamansky/react-boilerplate.git"
+  },
+  "author": "Andrew Lamansky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alamansky/react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/Alamansky/react-boilerplate#readme",
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "prettier": "1.10.2",
+    "stylelint": "*",
+    "stylelint-config-standard": "^18.2.0",
+    "stylelint-config-sass-guidelines": "^5.0.0"
+  }
+}
