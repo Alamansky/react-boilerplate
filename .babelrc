@@ -2,5 +2,13 @@
     "presets": [
         "env",
         "react"
+    ],
+    "plugins": [
+        [
+            "react-css-modules",
+            {
+                "generateScopedName": "[path]___[name]__[local]"
+            }
+        ]
     ]
 }
