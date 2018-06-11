@@ -1,9 +1,14 @@
 {
-    "extends": "stylelint-config-standard",
+    "extends": [
+        "stylelint-config-standard",
+        "stylelint-config-css-modules",
+        "stylelint-config-sass-guidelines"
+    ],
     "ignoreFiles": [
         "public/production/stylesheets/**",
         "./**/*.md",
-        "./**/*.html"
+        "./**/*.html",
+        "./**/*.css"
     ],
     "rules": {
         "indentation": 4,

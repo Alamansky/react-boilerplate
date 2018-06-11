@@ -7,7 +7,8 @@
         [
             "react-css-modules",
             {
-                "generateScopedName": "[path]___[name]__[local]"
+                "generateScopedName": "[local]-[hash:base64:5]",
+                "handleMissingStyleName": "throw"
             }
         ]
     ]
