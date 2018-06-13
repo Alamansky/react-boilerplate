@@ -1,12 +1,9 @@
-//require generic gulp modules
 var gulp = require('gulp'),
 	changed = require('gulp-changed'),
 	debug = require('gulp-debug'),
 	path = require('path'),
 	merge = require('merge-stream');
-
-//require js gulp modules
-var jshint = require('gulp-jshint');
+//require generic gulp modules
 
 function handleError(error) {
 	console.log(error.toString());
@@ -14,12 +11,12 @@ function handleError(error) {
 }
 //allows gulp to continue running after an error has been thrown
 
-//require CSS gulp modules
 var sass = require('gulp-sass'),
 	sourcemaps = require('gulp-sourcemaps'),
 	postcss = require('gulp-postcss'),
 	postcssPresetEnv = require('postcss-preset-env'),
 	cssnano = require('cssnano');
+//require CSS gulp modules
 
 gulp.task('css', function () {
 	return gulp.src('./src/Components/**/*.scss', { base: './' })
@@ -32,10 +29,11 @@ gulp.task('css', function () {
 		.pipe(sourcemaps.write('./maps'))
 		.pipe(gulp.dest('.'));
 });
+//css task, transpiles css in-place with error handling, sourcemapping and minification
 
-//Watch task: calls the linting task
 gulp.task('watch', function () {
 	gulp.watch('./src/**/*.scss', ['css']);
 });
+//Watch task: calls the css task
 
 gulp.task('default', ['watch']);
