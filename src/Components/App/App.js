@@ -13,6 +13,7 @@ class App extends React.Component {
 			init: 'React here!'
 		};
 	}
+
 	render() {
 		return (
 			<Child props={this.state.init} />

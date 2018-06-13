@@ -10,6 +10,9 @@
                 "generateScopedName": "[local]-[hash:base64:5]",
                 "handleMissingStyleName": "throw"
             }
+        ],
+        [
+            "transform-class-properties"
         ]
     ]
 }

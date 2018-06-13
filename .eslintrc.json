@@ -1,13 +1,13 @@
 {
 	"env": {
 		"browser": true,
-		"node": true,
 		"commonjs": true,
 		"es6": true
 	},
 	"extends": [
 		"prettier"
 	],
+	"parser": "babel-eslint",
 	"parserOptions": {
 		"ecmaFeatures": {
 			"experimentalObjectRestSpread": true,
@@ -37,6 +37,7 @@
 		],
 		"prettier/prettier": [
 			"error"
-		]
+		],
+		"strict": 0
 	}
 }
