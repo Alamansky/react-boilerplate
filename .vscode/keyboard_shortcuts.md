@@ -19,3 +19,12 @@ Plugin | Action | Shortcut
 hex-to-rgba | convert selected to rgba | `Ctrl+H`
 emmet | wrap lines with one tag | `Ctrl+Shift+W`
 emmet | wrap lines with multiple tags | `Ctrl+Shift+Q`
+
+# Snippets
+
+Filetype | Action | Shortcut
+--- | --- | ---
+JS | import part for React | `ip`
+JS | import component for React | `ic`
+HTML | HTML doc markup | `<!DOCTYPE`
+CSS | CSS Modules compose | `composes`

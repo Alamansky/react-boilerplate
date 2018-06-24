@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 
 import Child from './../Child/Child.js';
 
-//import 'normalize.css';
 import './App.css';
 
 class App extends React.Component {
