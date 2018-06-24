@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 import Child from './../Child/Child.js';
 
-import 'normalize.css';
+//import 'normalize.css';
 import './App.css';
 
 class App extends React.Component {
@@ -16,7 +16,9 @@ class App extends React.Component {
 
 	render() {
 		return (
-			<Child props={this.state.init} />
+			<div>
+				<Child props={this.state.init} />
+			</div>
 		);
 	}
 }
